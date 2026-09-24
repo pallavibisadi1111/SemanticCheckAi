@@ -1,0 +1,14 @@
+{
+  "name": "semanticheck-ai",
+  "version": "1.0.0",
+  "description": "Semantic Plagiarism Detection & Investigation Platform",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "start:server": "npm start --prefix server",
+    "build:client": "npm run build --prefix client",
+    "verify": "node server/verify_endpoints.js"
+  }
+}
